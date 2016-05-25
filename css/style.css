@@ -1,6 +1,15 @@
 .icon-lending{
 	padding:10px;
+	
 	}
+	
+.icon-lending-cont{
+	background-image:url(../img/social-back.png);
+	background-size:cover;}
+	
+.icon-lending-cont:hover{
+	background-image:url(../img/social-back-hover.png);
+	background-size:cover;}
 	
 .icon-lending a img{
 	width:100%;
