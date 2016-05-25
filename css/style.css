@@ -1,0 +1,85 @@
+.icon-lending{
+	padding:10px;
+	}
+	
+.icon-lending a img{
+	width:100%;
+	
+	}
+
+.lending{
+
+	height: 100vh;
+	background-image: url(../img/background.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#837F7F;}
+	
+	
+.logolending{
+	padding:50px 0 50px 0;	}
+	
+
+
+
+#search-input-lending {
+        margin:50px auto;
+        
+		max-width:400px;
+        
+    }
+ 
+    #custom-search-input .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    #custom-search-input button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        color:#D9230F;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+	
+.form-control{
+	    background-color: rgba(25,25,40,0.3) !important;}
+		
+		
+		
+.social-lending{
+	margin:auto;
+	max-width:300px;
+	text-align:center;}
+	
+.social-lending img{
+	width:50px;
+	margin:5px;}
+
+.menu-bottom-con{
+	margin:50px auto;}
+
+.menubottom a{
+	padding:5px;
+	}
