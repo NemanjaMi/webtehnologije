@@ -29,7 +29,11 @@
 
 .feature{
 	padding-left:0;
-	padding-right:20px;}
+	padding-right:15px;}
+	
+.feature img{
+	width:100%;
+}
 
 .featureh1{
 	font-size:22px;
@@ -47,23 +51,60 @@
 	padding-right:10px;}
 	
 	
-.listing{
+.listing {
+	padding-right: 0;}
+
+.listing img{
+	width:100%;
 
 	
 	}
 .listh1{
 	margin-top:10px;
 	font-size:16px;}
+	
+	
+	
+.seciton{
+	background-color:#E8E8E8;
+	margin: 50px auto;
+	padding: 50px 0;}
+	
+.mainaticle img{
+	width:100%;}
+	
+	
+@media screen and (max-width: 1200px)  { 
+.featuremain{
+	margin-bottom:20px;}
+	
+}
+
+.mainaticle img{
+	padding:10px;}
 
 @media screen and (max-width: 992px)  { 
+
+.mainaticle img{
+	padding:10px;}
+
+#twitter-widget-0{
+   width: 100% !important;
+  
+}
+
 
 .navbar-right {
     
     font-size: 13px;
-
-
-
 }
+
+.listing {
+	padding-right: 15px;}
+
+.featuremain{
+	margin-bottom:20px;
+	padding-right:15px;}
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
     color:  #3fa8f4;
@@ -72,6 +113,10 @@
 }
 
 @media screen and (max-width: 750px)  {
+	
+.feature{
+	padding-right:0;
+}
 
 
 .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
