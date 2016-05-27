@@ -71,8 +71,12 @@
 	padding: 50px 0;}
 	
 .mainaticle img{
-	width:100%;}
+	width:100%;
+	padding:10px 0 ;}
 	
+	
+.twitter{
+	padding-left:45px;}
 	
 @media screen and (max-width: 1200px)  { 
 .featuremain{
@@ -80,13 +84,12 @@
 	
 }
 
-.mainaticle img{
-	padding:10px;}
 
 @media screen and (max-width: 992px)  { 
 
-.mainaticle img{
-	padding:10px;}
+.twitter{
+	padding-left:15px;}
+
 
 #twitter-widget-0{
    width: 100% !important;
@@ -113,6 +116,9 @@
 }
 
 @media screen and (max-width: 750px)  {
+	
+.mainaticle img{
+	padding:0;}
 	
 .feature{
 	padding-right:0;
