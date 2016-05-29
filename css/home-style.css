@@ -67,7 +67,7 @@
 	
 .seciton{
 	background-color:#E8E8E8;
-	margin: 50px auto;
+	margin: 50px auto 0;
 	padding: 50px 0;}
 	
 .mainaticle img{
@@ -77,6 +77,48 @@
 	
 .twitter{
 	padding-left:45px;}
+	
+	
+	
+.footertop{
+	background-image:url(../img/background.jpg);
+	background-position:top;
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height:300px;
+	color: #ffffff;
+	padding: 60px 0;
+	}
+	
+	
+.footerbottom{
+	background-color:#171828;
+	height:60px;
+	padding: 10px;}
+	
+.footerbottom p{
+	float:right;
+	padding:10px;
+	color:#FFFFFF;}
+	
+.footerbottom img{
+	width:30px;
+	margin:5px;}
+	
+.footerbottom a{
+	color:#FFFFFF;
+	text-decoration:none;}	
+.aplikacija p{
+	width:60%;
+	float:left;}
+.aplikacija h4{
+	width:60%;
+	float:left;}	
+	
+.aplikacija img{
+	
+	float:right;
+	}
 	
 @media screen and (max-width: 1200px)  { 
 .featuremain{
